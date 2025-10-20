@@ -331,7 +331,7 @@ class _SimulationScreenState extends State<SimulationScreen> {
             // Day Type Probability Table (centered)
             Center(
               child: ConstrainedBox(
-                constraints: BoxConstraints(maxWidth: 600),
+                constraints: BoxConstraints(maxWidth: 2000),
                 child: DayTypeProbabilityTable(),
               ),
             ),
@@ -339,11 +339,11 @@ class _SimulationScreenState extends State<SimulationScreen> {
             // Demand Distribution Tables Title
             Row(
               children: [
-                Icon(Icons.bar_chart, color: Colors.black, size: 20),
+                Icon(Icons.bar_chart, color: Colors.black),
                 const SizedBox(width: 8),
                 Text(
                   'Demand Distribution by Day Type',
-                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
                     fontWeight: FontWeight.bold,
                     color: Colors.black87,
                   ),
@@ -372,21 +372,21 @@ class _SimulationScreenState extends State<SimulationScreen> {
                     children: [
                       Flexible(
                         child: ConstrainedBox(
-                          constraints: BoxConstraints(maxWidth: 400),
+                          constraints: BoxConstraints(maxWidth: 600),
                           child: DemandDistributionTable(dayType: 'High'),
                         ),
                       ),
                       SizedBox(width: 24),
                       Flexible(
                         child: ConstrainedBox(
-                          constraints: BoxConstraints(maxWidth: 400),
+                          constraints: BoxConstraints(maxWidth: 600),
                           child: DemandDistributionTable(dayType: 'Medium'),
                         ),
                       ),
                       SizedBox(width: 24),
                       Flexible(
                         child: ConstrainedBox(
-                          constraints: BoxConstraints(maxWidth: 400),
+                          constraints: BoxConstraints(maxWidth: 600),
                           child: DemandDistributionTable(dayType: 'Low'),
                         ),
                       ),

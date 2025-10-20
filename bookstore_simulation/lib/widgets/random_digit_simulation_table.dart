@@ -127,14 +127,12 @@ class RandomDigitSimulationTable extends StatelessWidget {
                       ),
                     ),
                     DataCell(
-                      Center(
-                        child: Text(
-                          entry.dayType,
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w600,
-                            color: _getColorForDayType(entry.dayType),
-                          ),
+                      Text(
+                        entry.dayType,
+                        style: TextStyle(
+                          fontSize: 14,
+                          fontWeight: FontWeight.w600,
+                          color: _getColorForDayType(entry.dayType),
                         ),
                       ),
                     ),
