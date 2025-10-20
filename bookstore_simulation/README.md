@@ -759,9 +759,9 @@ E[Profit] = Σ (Probability × Outcome) for all possible outcomes
 
 ## 👥 Contributors
 
-**Developer:** Muzafar Ibrahim  
-**Course:** Operations Research / Simulation Modeling  
-**Institution:** [Your Institution Name]  
+**Developer:** Muzafar Ibrahim  & Zulfiqar Alam
+**Course:** Simulation Modeling by Dr. Sania  Bhatti
+**Institution:** MUET, Jamshoro. 
 **Date:** October 21, 2025
 
 ---
@@ -776,8 +776,8 @@ This project is created for educational purposes as part of a semester project.
 
 For questions or feedback about this simulation:
 
-- **Email:** [Your Email]
-- **GitHub:** [Your GitHub Profile]
+- **Email:** 21sw055@students.muet.edu.pk
+- **GitHub:** Muzafar Ibrahim
 
 ---
 
